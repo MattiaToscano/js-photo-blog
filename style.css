@@ -11,6 +11,11 @@ h1{
     font-size: 600%
 }
 
+.card-body h5{
+    font-size: 40px;
+    font-style: bold;
+}
+
 body{
     background-image: url(./img/cork.png)
 }
@@ -21,3 +26,4 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+
