@@ -1,6 +1,11 @@
 header{
     background-image: url(./img/wall.png);
-}
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight 700;
+    font-style: bold;
+  }
+
 
 h1{
     font-size: 600%
