@@ -9,3 +9,10 @@ h1{
 body{
     background-image: url(./img/cork.png)
 }
+
+#pin{
+    position:absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
