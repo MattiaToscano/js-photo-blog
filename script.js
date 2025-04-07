@@ -1,4 +1,6 @@
 let fotoContainer = document.getElementById("container-foto");
+let overlay = document.getElementById("overlay")
+let overlayButton = document.getElementById("overlay-button")
 
 axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) =>{
     console.log(resp.data);
