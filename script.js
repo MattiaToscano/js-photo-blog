@@ -13,7 +13,7 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) => {
     console.log(resp.data);
     //Crea variabile foto e cicla per stampare le foto
     const foto = resp.data;
-    //Creo un ciclo per stampare le foto
+    
     for (let i = 0; i < foto.length; i++) {
         //Creo una card per ogni foto
         let fotoCard = 
@@ -36,7 +36,7 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) => {
         img.addEventListener('click', function() {
             // Imposta l'URL dell'immagine nell'overlay
             if (overlayFoto) {
-                overlayFoto.src = this.getAttribute('data-url');
+                overlayFoto.src = img.getAttribute('data-url');
             }
             // Mostra l'overlay
             if (overlay) {
